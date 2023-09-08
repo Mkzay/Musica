@@ -13,11 +13,18 @@ module.exports = {
         'dark': '#1D2123',
         'light': '#EFEEE0',
         'secondary': '#FACD66',
-        'bluey': '#609EAF'
+        'bluey': '#609EAF',
+        'light': '#EFEEE0'
       },
       fontFamily: {
         'quicksand': ['Quicksand', 'sans-serif'],
       },
+      height: {
+        '56': '233px'
+      },
+      borderRadius: {
+        'xl': '20px',
+      }
     },
   },
   plugins: [],

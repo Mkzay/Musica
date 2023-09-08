@@ -1,10 +1,16 @@
-//Script for Search Bar Toggle
-const searchBarButton = document.getElementById('search-button');
-const searchBar = document.getElementById('search-bar');
+document.addEventListener('DOMContentLoaded', function () {
+
+/*Script for Search Bar Toggle
+const searchBarButton = document.querySelector('#search-button');
+const searchBar = document.querySelector('#search-bar');
 
 searchBarButton.addEventListener('click', function(){
-    searchBar.classList.toggle('custom-hidden');
+    searchBar.classList.remove('custom-hidden');
 });
+
+searchBarButton.addEventListener('click', function(){
+    searchBar.classList.add('custom-hidden');
+})*/
 
 //Script for SideBar Navigation
 const openMenuButton = document.getElementById('open-menu-button');
@@ -17,4 +23,6 @@ openMenuButton.addEventListener('click', function(){
 
 closeMenuButton.addEventListener('click', function(){
     sideBar.classList.add('custom-hidden');
+});
+
 });
