@@ -1,16 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-/*Script for Search Bar Toggle
-const searchBarButton = document.querySelector('#search-button');
-const searchBar = document.querySelector('#search-bar');
+//Script for Search Bar Toggle
+const searchBarButton = document.getElementById('search-button');
+const searchBar = document.getElementById('search-bar');
 
-searchBarButton.addEventListener('click', function(){
-    searchBar.classList.remove('custom-hidden');
+let isSearchBarVisible = false;
+
+searchBarButton.addEventListener('click', function () {
+    if (isSearchBarVisible) {
+        searchBar.style.display = 'none';
+    } else {
+        searchBar.style.display = 'block';
+    }
+
+    isSearchBarVisible = !isSearchBarVisible;
 });
 
-searchBarButton.addEventListener('click', function(){
-    searchBar.classList.add('custom-hidden');
-})*/
 
 //Script for SideBar Navigation
 const openMenuButton = document.getElementById('open-menu-button');

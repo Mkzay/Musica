@@ -20,10 +20,12 @@ module.exports = {
         'quicksand': ['Quicksand', 'sans-serif'],
       },
       width: {
+        '100': '95%',
         '36': '153px',
         '80': '323px'
       },
       height: {
+        '32': '125px',
         '56': '233px'
       },
       borderRadius: {
